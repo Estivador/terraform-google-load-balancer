@@ -78,7 +78,7 @@ resource "google_compute_target_https_proxy" "default" {
   url_map = var.url_map
 
   ssl_certificates = var.ssl_certificates
-  ssl_policy       = var.enable_ssl_policy ? google_compute_ssl_policy.ssl_policy.self_link : null
+  ssl_policy       = var.enable_ssl_policy ? google_compute_ssl_policy.ssl_policy[count.index].self_link : null
 }
 
 # ------------------------------------------------------------------------------
