@@ -4,7 +4,7 @@
            relative linking correctly.
 -->
 
-The root folder of this repo shows an example of how to use the [HTTP Load Balancer Module](https://github.com/Estivador/terraform-google-load-balancer/tree/master/modules/http-load-balancer) to create a [HTTP Cloud Load Balancer](https://cloud.google.com/load-balancing/docs/https/) with 
+The root folder of this repo shows an example of how to use the [HTTP Load Balancer Module](https://github.com/Estivador/terraform-google-load-balancer/tree/main/modules/http-load-balancer) to create a [HTTP Cloud Load Balancer](https://cloud.google.com/load-balancing/docs/https/) with 
 
 * HTTP listener
 * Backend Cloud Storage Bucket with sample files

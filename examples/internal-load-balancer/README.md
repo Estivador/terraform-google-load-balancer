@@ -4,7 +4,7 @@
            relative linking correctly.
 -->
 
-This folder shows an example of how to use the [Internal Load Balancer Module](https://github.com/Estivador/terraform-google-load-balancer/tree/master/modules/internal-load-balancer) to create an [Internal TCP/UDP Load Balancer](https://cloud.google.com/load-balancing/docs/internal/) with 
+This folder shows an example of how to use the [Internal Load Balancer Module](https://github.com/Estivador/terraform-google-load-balancer/tree/main/modules/internal-load-balancer) to create an [Internal TCP/UDP Load Balancer](https://cloud.google.com/load-balancing/docs/internal/) with 
 
 * Instance Group to route the requests to. The instance group has a single instance running a simple [Flask](http://flask.pocoo.org/) application on port 5000.
 * Compute instance with a public IP address to proxy requests to the load balancer.

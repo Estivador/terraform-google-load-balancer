@@ -4,7 +4,7 @@
            relative linking correctly.
 -->
 
-This folder shows an example of how to use the [Network Load Balancer Module](https://github.com/Estivador/terraform-google-load-balancer/tree/master/modules/network-load-balancer) to create a [GCP Network Load Balancer](https://cloud.google.com/load-balancing/docs/network/) routing requests to a Compute Instance running a simple [Flask](http://flask.pocoo.org/) application on port 5000.
+This folder shows an example of how to use the [Network Load Balancer Module](https://github.com/Estivador/terraform-google-load-balancer/tree/main/modules/network-load-balancer) to create a [GCP Network Load Balancer](https://cloud.google.com/load-balancing/docs/network/) routing requests to a Compute Instance running a simple [Flask](http://flask.pocoo.org/) application on port 5000.
 
 ## How do you run this example?
 

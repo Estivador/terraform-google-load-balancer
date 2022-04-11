@@ -4,7 +4,7 @@ This repo contains modules to perform load balancing on [Google Cloud Platform (
 
 ## Cloud Load Balancer Architecture
 
-![Cloud Load Balancer Architecture](https://github.com/Estivador/terraform-google-load-balancer/blob/master/_docs/cloud-load-balancer.png "Cloud Load Balancer Architecture")
+![Cloud Load Balancer Architecture](https://github.com/Estivador/terraform-google-load-balancer/blob/main/_docs/cloud-load-balancer.png "Cloud Load Balancer Architecture")
 
 ## Features
 
@@ -16,41 +16,41 @@ This repo contains modules to perform load balancing on [Google Cloud Platform (
 
 ### Core concepts
 
-- [What is Cloud Load Balancing](https://github.com/Estivador/terraform-google-load-balancer/blob/master/modules/http-load-balancer/core-concepts.md#what-is-cloud-load-balancing)
-- [HTTP(S) Load Balancer Terminology](https://github.com/Estivador/terraform-google-load-balancer/tree/master/modules/http-load-balancer/core-concepts.md#https-load-balancer-terminology)
-- [Internal Load Balancer Terminology](https://github.com/Estivador/terraform-google-load-balancer/tree/master/modules/internal-load-balancer/core-concepts.md#internal-load-balancer-terminology)
-- [Network Load Balancer Terminology](https://github.com/Estivador/terraform-google-load-balancer/tree/master/modules/network-load-balancer/core-concepts.md#network-load-balancer-terminology)
+- [What is Cloud Load Balancing](https://github.com/Estivador/terraform-google-load-balancer/blob/main/modules/http-load-balancer/core-concepts.md#what-is-cloud-load-balancing)
+- [HTTP(S) Load Balancer Terminology](https://github.com/Estivador/terraform-google-load-balancer/tree/main/modules/http-load-balancer/core-concepts.md#https-load-balancer-terminology)
+- [Internal Load Balancer Terminology](https://github.com/Estivador/terraform-google-load-balancer/tree/main/modules/internal-load-balancer/core-concepts.md#internal-load-balancer-terminology)
+- [Network Load Balancer Terminology](https://github.com/Estivador/terraform-google-load-balancer/tree/main/modules/network-load-balancer/core-concepts.md#network-load-balancer-terminology)
 - [Cloud Load Balancing Documentation](https://cloud.google.com/load-balancing/)
 
 ### Repo organisation
 
 This repo has the following folder structure:
 
-- [root](https://github.com/Estivador/terraform-google-load-balancer/tree/master): The root folder contains an example of how to deploy a HTTP Load Balancer with multiple backends. See [http-multi-backend example documentation](https://github.com/Estivador/terraform-google-load-balancer/blob/master/examples/http-multi-backend) for the documentation.
+- [root](https://github.com/Estivador/terraform-google-load-balancer/tree/main): The root folder contains an example of how to deploy a HTTP Load Balancer with multiple backends. See [http-multi-backend example documentation](https://github.com/Estivador/terraform-google-load-balancer/blob/main/examples/http-multi-backend) for the documentation.
 
-- [modules](https://github.com/Estivador/terraform-google-load-balancer/blob/master/modules): This folder contains the main implementation code for this Module.
+- [modules](https://github.com/Estivador/terraform-google-load-balancer/blob/main/modules): This folder contains the main implementation code for this Module.
 
   The primary modules are:
 
-  - [http-load-balancer](https://github.com/Estivador/terraform-google-load-balancer/blob/master/modules/http-load-balancer) is used to create an [HTTP(S) External Load Balancer](https://cloud.google.com/load-balancing/docs/https/).
-  - [internal-load-balancer](https://github.com/Estivador/terraform-google-load-balancer/blob/master/modules/internal-load-balancer) is used to create an [Internal TCP/UDP Load Balancer](https://cloud.google.com/load-balancing/docs/internal/).
-  - [network-load-balancer](https://github.com/Estivador/terraform-google-load-balancer/blob/master/modules/network-load-balancer) is used to create an [External TCP/UDP Load Balancer](https://cloud.google.com/load-balancing/docs/network/).
+  - [http-load-balancer](https://github.com/Estivador/terraform-google-load-balancer/blob/main/modules/http-load-balancer) is used to create an [HTTP(S) External Load Balancer](https://cloud.google.com/load-balancing/docs/https/).
+  - [internal-load-balancer](https://github.com/Estivador/terraform-google-load-balancer/blob/main/modules/internal-load-balancer) is used to create an [Internal TCP/UDP Load Balancer](https://cloud.google.com/load-balancing/docs/internal/).
+  - [network-load-balancer](https://github.com/Estivador/terraform-google-load-balancer/blob/main/modules/network-load-balancer) is used to create an [External TCP/UDP Load Balancer](https://cloud.google.com/load-balancing/docs/network/).
 
-- [examples](https://github.com/Estivador/terraform-google-load-balancer/blob/master/examples): This folder contains examples of how to use the submodules.
+- [examples](https://github.com/Estivador/terraform-google-load-balancer/blob/main/examples): This folder contains examples of how to use the submodules.
 
 ## Deploy
 
 If you want to try this repo out for experimenting and learning, check out the following resources:
 
-- [examples folder](https://github.com/Estivador/terraform-google-load-balancer/blob/master/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing.
+- [examples folder](https://github.com/Estivador/terraform-google-load-balancer/blob/main/examples): The `examples` folder contains sample code optimized for learning, experimenting, and testing.
 
 ## Manage
 
 ### Day-to-day operations
 
-- [How to configure a custom domain](https://github.com/Estivador/terraform-google-load-balancer/tree/master/modules/http-load-balancer/core-concepts.md#how-do-you-configure-a-custom-domain)
-- [How to configure SSL](https://github.com/Estivador/terraform-google-load-balancer/tree/master/modules/http-load-balancer/core-concepts.md#how-do-you-configure-ssl)
-- [How to configure access logging and monitoring](https://github.com/Estivador/terraform-google-load-balancer/tree/master/modules/http-load-balancer/core-concepts.md#how-do-you-configure-access-logging-and-monitoring)
+- [How to configure a custom domain](https://github.com/Estivador/terraform-google-load-balancer/tree/main/modules/http-load-balancer/core-concepts.md#how-do-you-configure-a-custom-domain)
+- [How to configure SSL](https://github.com/Estivador/terraform-google-load-balancer/tree/main/modules/http-load-balancer/core-concepts.md#how-do-you-configure-ssl)
+- [How to configure access logging and monitoring](https://github.com/Estivador/terraform-google-load-balancer/tree/main/modules/http-load-balancer/core-concepts.md#how-do-you-configure-access-logging-and-monitoring)
 
 ## Support
 
@@ -62,6 +62,6 @@ Contributions to this repo are very welcome and appreciated! If you find a bug o
 
 ## License
 
-Please see [LICENSE](https://github.com/Estivador/terraform-google-load-balancer/blob/master/LICENSE.txt) for details on how the code in this repo is licensed.
+Please see [LICENSE](https://github.com/Estivador/terraform-google-load-balancer/blob/main/LICENSE.txt) for details on how the code in this repo is licensed.
 
 Copyright &copy; 2022 Estivador.
